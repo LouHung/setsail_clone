@@ -670,7 +670,7 @@ transition: all 0.3s ease
     display: grid;
     grid: repeat(6,1fr)/repeat(2,1fr);
     justify-content:center;
-    height:35em;
+    height:45em;
     margin:0 auto;
 }
 /* contact */
@@ -748,8 +748,7 @@ transition: all 0.3s ease
     opacity:0.8
 }
 .body-contact__btn-text{
-    padding: 0 31px;
-    
+    padding: 0 15px;
 }
 
 .footer-container{
@@ -808,9 +807,11 @@ transition: all 0.3s ease
        gap: 10px
    }
    .body-trending__item-container{
-       height: 20em
+       height: 27em
    }
-
+   .body-contact__btn-text{
+    padding: 0 30px;
+}
   
 }
 @media screen and (min-width:657px){
@@ -937,6 +938,8 @@ transition: all 0.3s ease
     /* trending */
     .body-trending__item-container{
         grid-template:repeat(2,1fr)/repeat(4,1fr) ;
+       height: 20em
+
     }
     .body-contact-info-container{
         width: 554px;

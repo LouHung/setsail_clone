@@ -13,7 +13,7 @@
     margin:0 auto
 }
 .body-contact-info__title{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 700;
     color:var(--white-color);
     text-transform: uppercase;
@@ -70,7 +70,7 @@
     opacity:0.8
 }
 .body-contact__btn-text{
-    padding: 0 31px;
+    padding: 0 15px;
     
 }
 /* description */
@@ -79,6 +79,10 @@
 }
 .body-info__pic {
     width:100%
+}
+.body-info__pic img{
+    width:100%;
+    max-width:21em
 }
 .body-info__description__logo--pic{
     font-size: 30px;
@@ -170,7 +174,14 @@
     .body-main-background__title{
         font-size: 48px ;
     }
-
+    .body-contact__btn-text{
+        padding: 0 30px;
+        
+    }
+    .body-contact-info__title{
+        font-size: 30px;
+    
+    }
 }
 @media screen and (min-width:740px){
     .body-main-background__title{

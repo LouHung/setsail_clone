@@ -328,6 +328,8 @@ color: var(--white-color);
 }
 .body-offer__tag--item__description-price__wrap{
     display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
 }
 .body-offer__tag--item__description-price-text{
     font-size: 14px;
@@ -388,6 +390,8 @@ color: var(--white-color);
     display: flex;
     gap: 10px;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content:flex-end;
 }
 .body-offer__tag--item__description-rating--quality{
     font-size: 14px;

@@ -65,7 +65,7 @@
 .body-blog__archives-btn i{
     font-size: 20px;
     color:var(--orange-color);
-    transition: all 0.3s ease
+    transition: color 0.3s ease
 }
 .body-blog__archives-btn i:hover{
     color:var(--primary-color)

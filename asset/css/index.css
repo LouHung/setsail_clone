@@ -184,7 +184,7 @@ color: var(--white-color);
 .body-filter__placefilter--checkin-btn{
     background-color:#31124b ;
     margin: 30px 0;
-    transition: all 0.3s ease
+    transition: background-color 0.3s ease
 }
 .body-filter__placefilter--checkin-btn:hover{
     background-color:#55287a ;
@@ -498,7 +498,7 @@ color:#fff
     
 }
 .body-offer__tag__btn-content{
-    transition: all 0.3s ease
+    transition: color 0.3s ease
 }
 .body-offer__tag__btn-content:hover{
     color:var(--orange-color)
@@ -648,7 +648,7 @@ font-size: 16px;
 font-weight:700;
 text-transform: uppercase;
 cursor: pointer;
-transition: all 0.3s ease
+transition: color 0.3s ease
 
 }
 .body-trending-item__content--title:hover{
@@ -670,7 +670,7 @@ transition: all 0.3s ease
     display: grid;
     grid: repeat(6,1fr)/repeat(2,1fr);
     justify-content:center;
-    height:50em;
+    height:45em;
     margin:0 auto;
 }
 /* contact */
@@ -742,7 +742,7 @@ transition: all 0.3s ease
     color: var(--white-color);
     font-size:13px;
     font-weight: 700;
-    transition: all 0.3s ease
+    transition: opacity 0.3s ease
 }
 .body-contact__btn:hover{
     opacity:0.8

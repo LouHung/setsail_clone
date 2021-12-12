@@ -670,7 +670,7 @@ transition: all 0.3s ease
     display: grid;
     grid: repeat(6,1fr)/repeat(2,1fr);
     justify-content:center;
-    height:45em;
+    height:50em;
     margin:0 auto;
 }
 /* contact */

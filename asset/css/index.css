@@ -701,6 +701,9 @@ transition: all 0.3s ease
 .body-contact-info__input{
     margin-top:45px
 }
+.body-contact-info__input ::placeholder{
+    color:var(--white-color)
+}
 .body-contact-info__input--item input,
 .body-contact-info__input--item textarea,
 .body-contact-info__input--item,

@@ -353,7 +353,9 @@ transition: all 0.2s ease-in;
     transition: all 0.3s ease
 }
 .header-nav-aside_container.active{
-    transform: translateX(-100%)
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -ms-transform:translateX(-100%);
 }
 .header-nav-aside_item{
     margin-bottom:2em

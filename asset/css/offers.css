@@ -475,7 +475,7 @@ color: var(--white-color);
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: -9.1em;
+        top: -9em;
         gap:0;
     }
     .body-filter__service-item{
